@@ -1,7 +1,7 @@
-package com.exemplo.service;
+package gestao.ferias.com.pm.service;
 
-import com.exemplo.model.Policial;
-import com.exemplo.repository.PolicialRepository;
+import gestao.ferias.com.pm.model.Policial;
+import gestao.ferias.com.pm.repository.PolicialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

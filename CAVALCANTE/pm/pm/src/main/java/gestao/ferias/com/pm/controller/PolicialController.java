@@ -1,7 +1,7 @@
-package com.exemplo.controller;
+package gestao.ferias.com.pm.controller;
 
-import com.exemplo.model.Policial;
-import com.exemplo.service.PolicialService;
+import gestao.ferias.com.pm.model.*;
+import gestao.ferias.com.pm.service.PolicialService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

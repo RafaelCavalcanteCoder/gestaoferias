@@ -1,11 +1,13 @@
 
-    import javax.persistence.Entity;
+package gestao.ferias.com.pm.model;
+import javax.persistence.Entity;
 import javax.persistence.Id;
+
 
 @Entity
 public class Policial {
     
-    @Id
+    @ Id
     private Long id;
     private String nome;
     private String graduacao;
@@ -13,7 +15,7 @@ public class Policial {
     private int classificacaoConcurso;
     private String dataIngresso;
 
-    // Getters e Setters
+    // Getters e Settersmvn clean installmvn clean install
     public Long getId() {
         return id;
     }
